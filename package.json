@@ -1,0 +1,23 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "author": "Karan Sakhuja <kevin.sakhuja@gmail.com> (http://kevify.com)",
+  "main": "index.js",
+  "dependencies": {
+    "eyes": "^0.1.8",
+    "git-rev-sync": "^1.4.0",
+    "got": "^6.1.1",
+    "json-stringify-safe": "^5.0.1",
+    "lodash": "^4.2.1",
+    "node-uuid": "^1.4.7",
+    "on-finished": "^2.3.0",
+    "pretty-bytes": "^2.0.1",
+    "stack-trace": "latest"
+  },
+  "scripts": {
+    "test": "ava test/index.js"
+  },
+  "devDependencies": {
+    "ava": "^0.7.0"
+  }
+}
